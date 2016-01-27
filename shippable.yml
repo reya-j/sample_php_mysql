@@ -1,8 +1,8 @@
 language: php
-build_image: drydock/u12phpall:tip
+build_image: drydock/u14phppls:tip
 
 services:
-  -mysql
+  - mysql
 
 php: 
   - 5.4

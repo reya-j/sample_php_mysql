@@ -1,4 +1,8 @@
 language: php
+build_image: drydock/u12phppls:tip
+
+services:
+  -mysql
 
 php: 
   - 5.4
